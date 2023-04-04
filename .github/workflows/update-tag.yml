@@ -6,6 +6,9 @@ on:
 
 jobs:
   update-tag:
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest
 
     steps:
